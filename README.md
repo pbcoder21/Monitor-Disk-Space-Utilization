@@ -2,7 +2,7 @@
 
 Monitor disk space utilization on Linux systems using Shell scripting and automate the process of sending email alerts when disk space crosses predefined thresholds. When disk space reaches critically low levels, it can lead to system crashes, data corruption, and other serious issues. Therefore, implementing a proactive approach to monitor disk space and receive alerts when thresholds are exceeded is essential for maintaining system reliability and availability.
 
-Explanation of the Script:
+**Explanation of the Script:**
 
 check_disk_space() Function:
 This function checks the disk space utilization by using the df -h / command to get information about the root file system.
@@ -23,7 +23,7 @@ If the return value of check_disk_space is 1 (indicating critically low disk spa
 Step #4:Make file executable
 
 
-Steps to run the script: 
+**Steps to run the script:** 
 
 Use the vi command to create a new file.
 vi diskspace_alert.sh
